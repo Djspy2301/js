@@ -20,7 +20,7 @@ console.log(id === anotherId);
 
 // Reference (Non primitive)
 
-// Array, Objects, Functions
+// Array->typeOf:object, Objects->typeOf:function, Functions->typeOf:function object
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
