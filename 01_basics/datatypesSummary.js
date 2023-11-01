@@ -1,6 +1,6 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String->typeOf:string, Number->typeOf:number, Boolearn->typeOf:boolean, null->typeOf:object, undefined->typeOf:undefined, Symbol->typeOf:symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -11,6 +11,8 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
+
+console.log("symbol type:",typeof id)
 
 console.log(id === anotherId);
 
